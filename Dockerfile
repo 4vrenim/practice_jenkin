@@ -14,7 +14,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . /app/
 
 # Mở port 5000
-EXPOSE 5000
+EXPOSE 5050
 
 # Chạy ứng dụng Flask khi container khởi động
 CMD ["python", "app.py"]
